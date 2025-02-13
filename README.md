@@ -1,7 +1,5 @@
 # Office 2024 Installer and Activator
 
-==============================
-
 A PowerShell script designed to automate the installation and activation of Microsoft Office 2024 on Windows systems.
 
 ## Table of Contents
