@@ -49,5 +49,4 @@ If activation fails due to network problems:
 If previous versions cause conflicts:
 
 1. Uninstall existing Office versions
-2. Run the included cleanup script
-3. Restart and retry installation
+2. Restart and retry installation
