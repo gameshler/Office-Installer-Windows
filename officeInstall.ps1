@@ -44,10 +44,10 @@ function Get-FileFromWeb {
 function Install-Office{
                 Clear-Host
                 Write-Host "Installing: Microsoft Office 2024 LSTC Edition . . ."
-                $toolPath = "$env:TEMP\officedeploymenttool_18227-20162.exe"
+                $toolPath = "$env:TEMP\officedeploymenttool_19029-20136.exe"
                 $configurationPath = "$env:TEMP\OfficeDeployment\configuration-Office365-x64.xml"
                 # download microsoft office
-                Get-FileFromWeb -URL "https://download.microsoft.com/download/2/7/A/27AF1BE6-DD20-4CB4-B154-EBAB8A7D4A7E/officedeploymenttool_18227-20162.exe" -File $toolPath
+                Get-FileFromWeb -URL "https://download.microsoft.com/download/6c1eeb25-cf8b-41d9-8d0d-cc1dbc032140/officedeploymenttool_19029-20136.exe" -File $toolPath
 
                 # extract office deployment tool
                 Start-Process -FilePath $toolPath -ArgumentList "/quiet /extract:$env:TEMP\OfficeDeployment" -Wait
